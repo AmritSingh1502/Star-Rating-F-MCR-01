@@ -1,0 +1,25 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.container span {
+    font-size: 4em;
+    cursor: pointer;
+    padding: 5px;
+    transition: color 0.3s;
+}
+
+.container span.gold {
+    color: gold;
+}
